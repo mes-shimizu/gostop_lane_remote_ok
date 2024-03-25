@@ -176,6 +176,9 @@
 	border: solid 1px #219bdd;
 	position: relative;
 }
+.lane_view ul li .lane_truck.pre{
+	padding-top: 24px;
+}
 .lane_view ul li .lane_truck img{
 	width: 65px;
 	height: auto;
@@ -184,9 +187,14 @@
 	font-size: 14px;
 	letter-spacing: 0;
 	font-weight: bold;
-	color: #fff;
 	position: absolute;
 	top:10px;left:35px;
+}
+.lane_view ul li .lane_truck .truck_number.white{
+	color:#fff;
+}
+.lane_view ul li .lane_truck .truck_number.navy{
+	color:#003fdb;
 }
 .lane_view ul li .lane_detail_area{
 	width: 95%;
@@ -534,6 +542,9 @@
 		border: solid 1px #219bdd;
 		position: relative;
 	}
+	.lane_view ul li .lane_truck.pre{
+		padding-top: 34px;
+	}
 	.lane_view ul li .lane_truck img{
 		width: 80px;
 		height: auto;
@@ -543,9 +554,14 @@
 		font-size: 18px;
 		letter-spacing: 0;
 		font-weight: bold;
-		color: #fff;
 		position: absolute;
 		top:17px;left:40px;
+	}
+	.lane_view ul li .lane_truck .truck_number.white{
+		color:#fff;
+	}
+	.lane_view ul li .lane_truck .truck_number.navy{
+		color:#003fdb;
 	}
 	.lane_view ul li .lane_detail_area{
 		width: 95%;
@@ -901,6 +917,9 @@
 		border: solid 1px #219bdd;
 		position: relative;
 	}
+	.lane_view ul li .lane_truck.pre{
+		padding-top: 15px;
+	}
 	.lane_view ul li .lane_truck img{
 		width: 50px;
 		height: auto;
@@ -909,10 +928,18 @@
 		width: 40px;
 		font-size: 12px;
 		font-weight: bold;
-		color: #fff;
 		position: absolute;
 		top:7px;left:15px;
 		letter-spacing: 0;
+	}
+	.lane_view ul li .lane_truck .truck_number.navy{
+		color:#003fdb;
+	}
+	.lane_view ul li .lane_detail_area{
+		width: 95%;
+		border: solid 1px #219bdd;
+		position: absolute;
+		bottom:2.5%;left:2.5%;
 	}
 	.lane_view ul li .lane_detail_area{
 		width: 95%;
